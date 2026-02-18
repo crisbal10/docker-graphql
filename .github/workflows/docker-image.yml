@@ -31,7 +31,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push -t crisbal10/graphql:0.0.2 .
+        docker push  crisbal10/graphql:0.0.2 .
 
 
 
