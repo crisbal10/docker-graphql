@@ -27,11 +27,12 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t crisbal10/graphql:0.0.2 .
+        docker build -t crisbal10/docker-graphql:0.0.2 .
 
     - name: Push Docker Image
       run: |
-        docker push  crisbal10/graphql:0.0.2
+        docker push  crisbal10/docker-graphql:0.0.2
+        docker push  crisbal10/docker-graphql:latest
 
 
 
